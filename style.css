@@ -1,0 +1,20 @@
+/*
+
+	Style.css for jasperebekah.com
+	Author: Jasper Park
+
+*/
+
+#main-jumbo {
+	/*min-height: 40vh;*/
+	margin-bottom: 0px;
+}
+
+#main-jumbo-container {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+footer {
+	margin-bottom: 0px;
+}
