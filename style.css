@@ -47,13 +47,13 @@ body {
 }
 
 #main-jumbo {
-	min-height: 40vh;
+	min-height: 88vh;
 	margin-bottom: 0px;
 	background-image: url("./src/jumbo_bg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	background-position: center center;
+	background-position: center bottom;
 }
 
 #main-jumbo-container {
