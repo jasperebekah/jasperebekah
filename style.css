@@ -5,6 +5,29 @@
 
 */
 
+/*
+
+.Pink-spring-magnolia-flowers-branch-1-hex { color: #D991B3; }
+.Pink-spring-magnolia-flowers-branch-2-hex { color: #F2C9DC; }
+.Pink-spring-magnolia-flowers-branch-3-hex { color: #D962A3; }
+.Pink-spring-magnolia-flowers-branch-4-hex { color: #D94AA7; }
+.Pink-spring-magnolia-flowers-branch-5-hex { color: #F2F2F2; }
+
+
+.Pink-spring-magnolia-flowers-branch-1-rgba { color: rgba(216, 145, 178, 1); }
+.Pink-spring-magnolia-flowers-branch-2-rgba { color: rgba(242, 201, 220, 1); }
+.Pink-spring-magnolia-flowers-branch-3-rgba { color: rgba(216, 97, 163, 1); }
+.Pink-spring-magnolia-flowers-branch-4-rgba { color: rgba(216, 73, 166, 1); }
+.Pink-spring-magnolia-flowers-branch-5-rgba { color: rgba(242, 242, 242, 1); }
+
+
+.Pink-spring-magnolia-flowers-branch-1-hsla { color: hsla(331, 48, 70, 1); }
+.Pink-spring-magnolia-flowers-branch-2-hsla { color: hsla(331, 61, 86, 1); }
+.Pink-spring-magnolia-flowers-branch-3-hsla { color: hsla(326, 60, 61, 1); }
+.Pink-spring-magnolia-flowers-branch-4-hsla { color: hsla(320, 65, 56, 1); }
+.Pink-spring-magnolia-flowers-branch-5-hsla { color: hsla(0, 0, 95, 1); }
+*/
+
 /* Color Theme Swatches in RGBA */
 .c-darkPink { color: rgba(255, 119, 94, 1); }
 .c-pink { color: rgba(255, 149, 131, 1); }
@@ -44,6 +67,10 @@ body {
 .row-space {
 	margin: 0;
 	margin-bottom: 32px;
+}
+
+.centerit {
+    text-align: center;
 }
 
 #main-jumbo {
@@ -87,6 +114,79 @@ body {
 }
 
 #footer-jumbo {
+    margin-top: 0;
 	margin-bottom: 0;
 	padding: 36px;
+}
+
+/* Travel Page */
+.t-img {
+    display: block;
+    min-width: 128px;
+    max-width: 128px;
+    min-height: 128px;
+    max-height: 128px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+#img-hr {
+    display:inline-block;
+    text-align: center;
+    width: 256px;
+    height: auto;
+}
+#travel-map {
+    width: 100%;
+    height: auto;
+    min-height: 384px;
+    margin: 0;
+    padding: 0;
+}
+
+#travel-jumbo {
+    min-height: 88vh;
+    margin-bottom: 0px;
+    background-image: url("./src/travel_bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+}
+
+#travel-head {
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    display: block;
+    width: 280px;
+    height: 70px;
+    background-color: rgba(216, 73, 166,0.6);
+    margin: 0 auto;
+}
+
+/* Story Page */
+#story-jumbo {
+    min-height: 88vh;
+    margin-bottom: 0px;
+    background-image: url("./src/s_main.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+}
+
+#img-story {
+    display: block;
+}
+
+.s-img {
+    display: block;
+    min-width: 256px;
+    max-width: 512px;
+    min-height: 128px;
+    max-height: 256px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 12px;
 }

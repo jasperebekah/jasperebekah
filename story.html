@@ -10,35 +10,17 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:700|Raleway|Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cousine|Indie+Flower|Noto+Sans|Raleway|Shadows+Into+Light&display=swap" rel="stylesheet">
 
-	<!-- Lightbox CSS + JS-->
-	<link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'/>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-	<!--script src=""></script>
-	<script src=""></script-->
-	<script>
-	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-				event.preventDefault();
-				$(this).ekkoLightbox();
-			});
-	</script>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="./style.css" />
-    <title>Jasper &amp; Rebekah</title>
+    <title>Our Story: Jasper &amp; Rebekah</title>
   </head>
   <body>
-	<header class="jumbotron jumbotron-fluid" id="main-jumbo">
-		<div class='container' id="main-jumbo-container">
-			<h1 class='display-3'>Jasper &amp; Rebekah</h1>
-			<br>
-			<h3>07 . 18 . 20</h3>
-			<h3 class='main-info-text'><a>@ Lookout Point Country Club</a></h3>
-			<br>
-			<a class='btn bg-pink text-light main-info-text' id='main-jumbo-rsvp' href='./rsvp.html'>RSVP</a>
-		</div>
-	</header>
+      <header class="jumbotron jumbotron-fluid" id='story-jumbo'>
+          <br><br><br><br><br><br>
+          <h1 id='travel-head' class='text-noto'>You &amp; I  &#x2764;</h1>
+  	</header>
 	<nav class='navbar navbar-expand-md navbar-dark bg-pink sticky-top'>
 		<div class='mx-auto'>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +29,7 @@
 		</div>
 		<div class="collapse navbar-collapse " id="navbarSupportedContent">
 		    <ul class="navbar-nav mx-auto">
-				<li class="nav-item active">
+				<li class="nav-item">
 				  <a class="nav-link" href="./index.html">Home</a>
 				</li>
 				<li class="nav-item active">
@@ -72,49 +54,155 @@
   		</div>
 	</nav>
 	<div class='container' id='content-container'>
-		<h1>Content Area</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class='row'><div class='col-12 centerit'>
+            <img src='./src/ourStory.svg' id='img-story'></img>
+            <br>
+            <h1>Our Story</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div></div>
 	</div>
-	<div class='container'>
-		<div class="row justify-content-center row-space">
-			<h1>Our Pictures</h1>
-		</div>
-		<div class="row row-space">
-	        <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-	        </a>
-	        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-	        </a>
-	        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-	        </a>
-		</div>
-		<div class="row row-space">
-			<a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-			    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-			</a>
-			<a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-			    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-			</a>
-			<a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-			    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-			</a>
-		</div>
-		<div class="row row-space">
-	        <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-	        </a>
-	        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-	        </a>
-	        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-	        </a>
-		</div>
-	</div>
-
-
+    <div style='text-align: center;'><!-- Divider -->
+        <img src='./src/p_div.svg' id='img-hr'></img>
+    </div>
+    <div class='container' id='content-container'>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'>
+                <h3>About Us!</h3>
+                <br>
+            </div>
+            <div class='col-md-12 centerit'>
+                <img src='./src/people/03_jr.svg' class='s-img'></img>
+            </div>
+        </div>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 1): What's something you always wanted to do as a child but never got to do it?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "Get my eyebrows pierced. I thought it looked really cool, but someone beat me to it... so I couldn't copy them."</p>
+                <p class='s-r'>R: "French immersion LOL."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 2): What are your 3 favourite movies?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "Honestly, this is such a tough question ... there are so many good movies. Superbad, The Prestige, and Thor Ragnorak."</p>
+                <p class='s-r'>R: "Mamma Mia. Mean Girls, and the Lord of the Rings trilogy."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 3): What is one thing you refuse to share?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "My sitting space. If I am comfy, I ain't scooching."</p>
+                <p class='s-r'>R: "Dessert."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 4): What do you do for work?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "I am a teacher. I teach children. I don't know if I do it well, but that's what I do."</p>
+                <p class='s-r'>R: "Finished teachers college, and I teach piano! ."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 5): If you could have one superpower, what would it be and why?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "Some sort of teleportation. I hate absolutely hate commuting."</p>
+                <p class='s-r'>R: "Mind Reading: I want to read your mind - I just wanna know what you’re thinking."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 6): What’s Your favourite memory of us?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "My favourite memory of me and Rebekah is our first date. I was having so much fun that I wanted to skip my Ultimate Frisbee Game. I honestly could have talked to her for hours."</p>
+                <p class='s-r'>R: "It’ll always be our first date!"</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 7): How many kids do you want?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "Six: 2 boys, 2 girls, and 2 dogs."</p>
+                <p class='s-r'>R: "85, jk. Just One. Oh, and a dog!"</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 8): Would You Rather Sleep Wearing Handcuffs Or A Bike Helmet?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "Why not both?"</p>
+                <p class='s-r'>R: "Bike helmet."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 9): If You Could Ask Your Pet 3 Questions, What Would They Be?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "Hello, how are you? Do you think you can make on the toilet? Which brand of food do you like eating?"</p>
+                <p class='s-r'>R: "How are you? How much do you love me? Since you eat anything & everything, what exactly is your favourite food?"</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 10): Where would you love to travel to?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "A food trip in Japan and Italy. I don't care about sight seeing, I want to be sight eating.""</p>
+                <p class='s-r'>R: "Hawaii or anywhere warm really."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 11): Cake or Pie?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "Both are great, but I might have to say Pie."</p>
+                <p class='s-r'>R: "Cake always unless it’s chocolate pie."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 12): What is your favourite song?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "Calendar Girl by Stars; it's a hauntingly beautiful song."</p>
+                <p class='s-r'>R: "Thank u next by Arianna Grande."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 13): Who is the best: Chandler, Joey, Phoebe, Rachel, Monica, Ross, or Gunther?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "I'd rather have Gunther above Rachel and Ross. They are the worst. I really liked Paul Rudd's character on Friends though."</p>
+                <p class='s-r'>R: "Phoebe."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 14): Favourite Pizza Toppings?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "Pineapple, Italian Sausage, Black Olives, Banana Peppers."</p>
+                <p class='s-r'>R: "Pepperoni, Pineapples, and Hot peppers "</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 15): What is your guilty pleasure?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "Netflix Binging. I should be marking and prepping, but I be binging."</p>
+                <p class='s-r'>R: "Watching Hell’s Kitchen or playing Catan on my phone."</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-12 centerit'><h5>Question 16): If you could choose your age forever, what age would you choose and why?</h5><br></div>
+            <div class='col-md-12 centerit'>
+                <p class='s-j'>J: "19. I probably was at my healthiest and I had the most hair back then."</p>
+                <p class='s-r'>R: "25 - I love being 25 ."</p>
+            </div>
+        </div>
+        <br>
+    </div>
 	<footer class="jumbotron jumbotron-fluid bg-pink c-white" id='footer-jumbo'>
 		<div class="container text-center">
 			<span class=''>© 2019 Copyright:</span>

@@ -10,36 +10,18 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:700|Raleway|Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cousine|Indie+Flower|Noto+Sans|Raleway|Shadows+Into+Light&display=swap" rel="stylesheet">
 
-	<!-- Lightbox CSS + JS-->
-	<link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'/>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-	<!--script src=""></script>
-	<script src=""></script-->
-	<script>
-	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-				event.preventDefault();
-				$(this).ekkoLightbox();
-			});
-	</script>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="./style.css" />
-    <title>Jasper &amp; Rebekah</title>
+    <title>Travel: Jasper &amp; Rebekah</title>
   </head>
   <body>
-	<header class="jumbotron jumbotron-fluid" id="main-jumbo">
-		<div class='container' id="main-jumbo-container">
-			<h1 class='display-3'>Jasper &amp; Rebekah</h1>
-			<br>
-			<h3>07 . 18 . 20</h3>
-			<h3 class='main-info-text'><a>@ Lookout Point Country Club</a></h3>
-			<br>
-			<a class='btn bg-pink text-light main-info-text' id='main-jumbo-rsvp' href='./rsvp.html'>RSVP</a>
-		</div>
+	<header class="jumbotron jumbotron-fluid" id='travel-jumbo'>
+        <br><br><br><br><br><br>
+        <h1 id='travel-head' class='text-noto'>T R A V E L &#x2764;</h1>
 	</header>
-	<nav class='navbar navbar-expand-md navbar-dark bg-pink sticky-top'>
+ 	<nav class='navbar navbar-expand-md navbar-dark bg-pink sticky-top'>
 		<div class='mx-auto'>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   			<span class='c-white'>  MENU </span>
@@ -47,7 +29,7 @@
 		</div>
 		<div class="collapse navbar-collapse " id="navbarSupportedContent">
 		    <ul class="navbar-nav mx-auto">
-				<li class="nav-item active">
+				<li class="nav-item">
 				  <a class="nav-link" href="./index.html">Home</a>
 				</li>
 				<li class="nav-item">
@@ -72,50 +54,109 @@
   		</div>
 	</nav>
 	<div class='container' id='content-container'>
-		<h1>Content Area</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
-	<div class='container'>
-		<div class="row justify-content-center row-space">
-			<h1>Our Pictures</h1>
-		</div>
-		<div class="row row-space">
-	        <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-	        </a>
-	        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-	        </a>
-	        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-	        </a>
-		</div>
-		<div class="row row-space">
-			<a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-			    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-			</a>
-			<a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-			    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-			</a>
-			<a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-			    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-			</a>
-		</div>
-		<div class="row row-space">
-	        <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-	        </a>
-	        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-	        </a>
-	        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-	            <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-	        </a>
-		</div>
+        <div class='row'>
+            <div class='col-12' style='text-align: center;'><img src='./src/loc.svg' style='width: 96px; height:auto;'></img></div>
+            <div class='col-12'>
+                <h1 class='centerit'><a href='https://www.lookoutpointcc.com/' target='_blank'-->Lookout Point Country Club</a></h1>
+        		<h3 class='centerit'>Ceremony &amp; Reception</h3>
+                <br>
+            </div>
+        </div>
+        <div class='row'>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14863.41791122575!2d-79.3092594429638!3d43.05404939119713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d34bf844210903%3A0x486a78b8ffe5e660!2sLookout%20Point%20Country%20Club!5e0!3m2!1sen!2sca!4v1576612475963!5m2!1sen!2sca"  frameborder="0" style="border:0;" allowfullscreen="" id='travel-map'></iframe>
+        </div>
 	</div>
 
+    <div style='text-align: center;'><!-- Divider -->
+        <img src='./src/p_div.svg' id='img-hr'></img>
+    </div>
 
-	<footer class="jumbotron jumbotron-fluid bg-pink c-white" id='footer-jumbo'>
+    <div class='container' id='content-container' style='margin-top: 0; margin-bottom: 0;'>
+        <div class='row'><div class='col-12'>
+            <h3 class='centerit'>BED & BREAKFASTS</h3>
+            <h5 class='centerit'>THE FONTHILL INN</h5>
+            <p class='centerit'>4 minute drive from our venue.</p>
+            <p class='centerit'><a href='http://thefonthillinn.com/' target='_blank'>VISIT WEBSITE</a></p>
+            <h5 class='centerit'>AIRB&B</h5>
+            <p class='centerit'>Some fantastic locations close to our venue.</p>
+            <p class='centerit'><a href='https://www.airbnb.com/s/Fonthill--Pelham--ON/homes?refinement_paths%5B%5D=%2Fhomes&current_tab_id=home_tab&selected_tab_id=home_tab&source=mc_search_bar&search_type=unknown&screen_size=large&hide_dates_and_guests_filters=false&ne_lat=43.05169681950151&ne_lng=-79.28763915781428&sw_lat=43.03792828926054&sw_lng=-79.30205871347835&zoom=15&search_by_map=true&adults=2' target='_blank'>VISIT THE APP</a></p>
+        </div></div>
+    </div>
+    <div style='text-align: center;'><!-- Divider -->
+        <img src='./src/p_div.svg' id='img-hr'></img>
+    </div>
+    <div class='container' id='content-container' style='margin-top: 0; margin-bottom: 0;'>
+        <div class='row'>
+            <div class='col-12'>
+                <h3 class='centerit'>OUR FAVOURITE ACTIVITIES</h3>
+            </br>
+            </div>
+        </div>
+        <div class='row justify-content-center'>
+            <div class='col-md-3 centerit'>
+                <img src='./src/travel_locations/01_pieza.svg' class='t-img'></img>
+                <h5>Pieza Pizzeria</h5>
+                <p><a href='https://www.piezapizzeria.com/' target='_blank'>188 Victoria St, Niagara-on-the-Lake, ON L0S 1J0</a></p>
+                <p>A fantastic little pizzeria found in Niagara on the Lake. Fun fact: this is where we had our dinner right before our engagement!</p>
+            </div>
+            <div class='col-md-3 centerit'>
+                <img src='./src/travel_locations/02_beech.jpg' class='rounded-circle t-img'></img>
+                <h5>Beechwood Doughnuts</h5>
+                <p><a href='https://www.beechwooddoughnuts.com/' target='_blank'>165 St Paul St, St. Catharines, ON L2R 3M5</a></p>
+                <p>An amazing vegan donut place that we love and adore. We recommend that you pick some up after the wedding or even before!</p>
+            </div>
+            <div class='col-md-3 centerit'>
+                <img src='./src/travel_locations/03_climb.jpg' class='rounded-circle t-img'></img>
+                <h5>Gravity Climbing Gym</h5>
+                <p><a href='https://www.gravityclimbinggym.com/niagara' target='_blank'>399 Vansickle Rd Unit 3, St. Catharines, ON L2S 3T4</a></p>
+                <p>Our go to bouldering gym in St Catharines. They have both day-passes and shoes rental, so get a little climbing in when you are in Niagara.</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-md-3 centerit'>
+                <img src='./src/travel_locations/04_beer.jpeg' class='rounded-circle t-img'></img>
+                <h5>Silversmith Brewing</h5>
+                <p><a href='https://www.silversmithbrewing.com/' target='_blank'>1523 Niagara Stone Rd, Virgil, ON L0S 1T0</a></p>
+                <p>Jasper's favourite brewery in the Niagara region. He recommends that you check out their delicious black lager.</p>
+            </div>
+            <div class='col-md-3 centerit'>
+                <img src='./src/travel_locations/05_bake.jpg' class='rounded-circle t-img'></img>
+                <h5>13th Street Winery</h5>
+                <p><a href='https://www.silversmithbrewing.com/' target='_blank'>1776 Fourth Ave, St. Catharines, ON L2R 6P9</a></p>
+                <p>A good winery with an excellent bakery. Please go enjoy some wine and their amazing butter tarts.</p>
+            </div>
+            <div class='col-md-3 centerit'>
+                <img src='./src/travel_locations/06_gel.jpg' class='rounded-circle t-img'></img>
+                <h5>Il Gelato di Carlotta</h5>
+                <p><a href='https://www.gelatodicarlotta.com/' target='_blank'>6380 Fallsview Boulevard, Niagara Falls, ON L2G 7X5</a></p>
+                <p>Summertime is Gelatto time. A delicious Gelatto place recommended by our bridesmaid: Esther.</p>
+            </div>
+        </div>
+        <br>
+        <div class='row justify-content-center'>
+            <div class='col-md-3 centerit'>
+                <img src='./src/travel_locations/07_break.jpeg' class='rounded-circle t-img'></img>
+                <h5>Grazi Cafe</h5>
+                <p><a href='http://grazicafe.ca/' target='_blank'>436 Vansickle Rd, St. Catharines, ON L2S 0A4</a></p>
+                <p>A super cute family owned breakfast place. Go enjoy a nice brunch here whenever you can.</p>
+            </div>
+            <div class='col-md-3 centerit'>
+                <img src='./src/travel_locations/08_wine.jpg' class='rounded-circle t-img'></img>
+                <h5>Hernder Estate Wines</h5>
+                <p><a href='https://www.hernder.com/' target='_blank'>1607 Eighth Ave Louth, St. Catharines, ON L2R 6P7</a></p>
+                <p>Our recommended winery in St Catharines, and we guarantee you will find a bottle that you will like. We recommend their unique Green Tea Gewurztraminer.</p>
+            </div>
+            <div class='col-md-3 centerit'>
+                <img src='./src/travel_locations/09_out.jpg' class='rounded-circle t-img'></img>
+                <h5>Outlet Collection</h5>
+                <p><a href='http://www.outletcollectionatniagara.com/' target='_blank'>300 Taylor Rd, Niagara-on-the-Lake, ON L0S 1J0</a></p>
+                <p>We all love to shop! There is a nice outlet here in Niagara, so you can pick up anything you need here.</p>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+	<footer class="jumbotron jumbotron-fluid bg-pink c-white" id='footer-jumbo' style='margin-top: -7px;'>
 		<div class="container text-center">
 			<span class=''>© 2019 Copyright:</span>
   			<a class='text-light' href="https://github.com/mrparkonline" target='_blank'> Jasper Park</a>
