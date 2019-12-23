@@ -190,3 +190,12 @@ body {
     margin: 0 auto;
     margin-bottom: 12px;
 }
+
+.story-vec {
+    display:block;
+    width: 128px;
+    height: 128px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
