@@ -49,7 +49,7 @@
 */
 
 /* Color Theme Swatches in RGBA */
-.c-darkPink { color: rgba(255, 119, 94, 1); }
+.c-darkPink { color: #F2B6CC; }
 .c-pink { color: #F2B6CC; }
 .c-midPink{ color: rgba(255, 181, 165, 1); }
 .c-lightPink { color: rgba(255, 207, 198, 1); }
@@ -172,7 +172,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center top;
+    background-position: center bottom;
 }
 
 #travel-head {
@@ -194,7 +194,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center top;
+    background-position: center bottom;
 }
 
 #img-story {
@@ -227,4 +227,23 @@ body {
     height: auto;
     margin: 0 auto;
     margin-bottom: 12px;
+}
+
+/* RSVP */
+#rsvp-jumbo {
+    min-height: 88vh;
+    margin-bottom: 0px;
+    background-image: url("./src/lookout.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+#rsvp-button {
+    display: block;
+    width: 128px;
+    background-color: #F2D5DD;
+    color: black;
+    margin: 0 auto;
 }
