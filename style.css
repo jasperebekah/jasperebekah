@@ -251,3 +251,32 @@ body {
     color: black;
     margin: 0 auto;
 }
+
+/* IOS Fixes */
+@supports (-webkit-overflow-scrolling: touch) {
+    /* CSS specific to iOS devices */
+    #main-jumbo {
+        min-height: 88vh;
+        margin-bottom: 0px;
+        background: #ffffff url("./src/jumbo_bg.jpg") no-repeat scroll center bottom;
+    }
+
+    #travel-jumbo {
+        min-height: 88vh;
+        margin-bottom: 0px;
+        background: #ffffff url("./src/travel_bg.jpg") no-repeat scroll center bottom;
+    }
+
+    #story-jumbo {
+        min-height: 88vh;
+        margin-bottom: 0px;
+        background: #ffffff url("./src/s_main.jpg") no-repeat scroll center bottom;
+    }
+
+    #rsvp-jumbo {
+        min-height: 88vh;
+        margin-bottom: 0px;
+        background: #ffffff url("./src/lookout.jpg") no-repeat scroll center bottom;
+    }
+
+}
