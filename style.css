@@ -97,11 +97,12 @@ body {
 #main-jumbo {
 	min-height: 88vh;
 	margin-bottom: 0px;
+    background: #ffffff url("./src/jumbo_bg.jpg") no-repeat fixed center bottom / cover;
 	background-image: url("./src/jumbo_bg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+    background-position: center bottom;
 	background-size: cover;
-	background-position: center bottom;
 }
 
 #main-jumbo-container {
@@ -168,11 +169,12 @@ body {
 #travel-jumbo {
     min-height: 88vh;
     margin-bottom: 0px;
+    background: #ffffff url("./src/travel_bg.jpg") no-repeat fixed center bottom / cover;
     background-image: url("./src/travel_bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     background-position: center bottom;
+	background-size: cover;
 }
 
 #travel-head {
@@ -190,11 +192,12 @@ body {
 #story-jumbo {
     min-height: 88vh;
     margin-bottom: 0px;
+    background: #ffffff url("./src/s_main.jpg") no-repeat fixed center bottom / cover;
     background-image: url("./src/s_main.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     background-position: center bottom;
+    background-size: cover;
 }
 
 #img-story {
@@ -233,11 +236,12 @@ body {
 #rsvp-jumbo {
     min-height: 88vh;
     margin-bottom: 0px;
+    background: #ffffff url("./src/lookout.jpg") no-repeat fixed center bottom / cover;
     background-image: url("./src/lookout.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     background-position: center bottom;
+    background-size: cover;
 }
 
 #rsvp-button {
