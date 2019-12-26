@@ -280,3 +280,14 @@ body {
     }
 
 }
+
+#wedding-head {
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    display: block;
+    width: 320px;
+    height: 70px;
+    background-color: rgba(242, 193, 206, 0.6);
+    margin: 0 auto;
+}
