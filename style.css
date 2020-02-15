@@ -252,6 +252,42 @@ body {
     margin: 0 auto;
 }
 
+/* Wedding Party */
+#wedding-head {
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    display: block;
+    width: 320px;
+    height: 70px;
+    background-color: rgba(242, 193, 206, 0.6);
+    margin: 0 auto;
+}
+
+.btn-circle {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 1.2rem;
+}
+
+.btn-circle i {
+  position: relative;
+  top: -1px;
+}
+
+.party-vec {
+    display:block;
+    width: 100px;
+    height: 100px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
 /* IOS Fixes */
 @supports (-webkit-overflow-scrolling: touch) {
     /* CSS specific to iOS devices */
@@ -279,15 +315,4 @@ body {
         background: #ffffff url("./src/rsvp_ios.jpg") no-repeat scroll center bottom;
     }
 
-}
-
-#wedding-head {
-    text-align: center;
-    line-height: 70px;
-    color: white;
-    display: block;
-    width: 320px;
-    height: 70px;
-    background-color: rgba(242, 193, 206, 0.6);
-    margin: 0 auto;
 }
